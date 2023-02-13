@@ -233,8 +233,8 @@
         <TranslationEntry Key="ActionForm/lblJsonPayload" Translation="要发送的内容" />
         <TranslationEntry Key="ActionForm/lblKeypress" Translation="要发送的 Keycode" />
         <TranslationEntry Key="ActionForm/lblKeypresses" Translation="要发送的按键命令" />
-        <TranslationEntry Key="ActionForm/lblKeypressesInfo" Translation="按键可用代码及其他说明请参阅微软官方文档，你可以从下面的地址访问：" />
-        <TranslationEntry Key="ActionForm/lblKeypressInfo" Translation="系统消息方式（Window message）一次只能发送一个按键，组合键（如 Shift、 Ctrl 等）是通过为 Keycode 添加前缀的方式附加的（如 ^%{{DEL}} 代表 Ctrl+Alt+Delete）。按键可用代码及其他说明请参阅微软官方文档，你可以从下面的地址访问：" />
+        <TranslationEntry Key="ActionForm/lblKeypressesInfo" Translation="发送按键方式（SendKeys）一次只能发送一个按键，组合键（如 Shift、 Ctrl 等）是通过为 Keycode 添加前缀的方式附加的（如 ^%{{DEL}} 代表 Ctrl+Alt+Delete）。按键可用代码及其他说明请参阅微软官方文档，你可以从下面的地址访问：" />
+        <TranslationEntry Key="ActionForm/lblKeypressInfo" Translation="系统消息方式（Window message）一次只能发送一个按键，组合键（如 Shift、 Ctrl 等）是通过将 Keycode 与修饰符代码相加的方式得到的。您还可以使用多重系统消息的方式达到同样的效果。按键与修饰符的代码请参阅微软官方文档，你可以从下面的地址访问：" />
         <TranslationEntry Key="ActionForm/lblKeypressMethod" Translation="发送按键命令的方式" />
         <TranslationEntry Key="ActionForm/lblKeypressWindow" Translation="窗口标题" />
         <TranslationEntry Key="ActionForm/lblLoggingLevel" Translation="日志过滤级别" />

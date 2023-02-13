@@ -1532,7 +1532,7 @@ namespace Triggernometry
                                         string procid = ctx.EvaluateStringExpression(ActionContextLogger, ctx, _KeyPressProcId);
                                         string window = ctx.EvaluateStringExpression(ActionContextLogger, ctx, _KeyPressWindow);
                                         int keycode = (int)ctx.EvaluateNumericExpression(ActionContextLogger, ctx, _KeyPressCode);
-                                        RealPlugin.WindowsUtils.SendKeycodes(procid, window, (ushort)keycode);
+                                        RealPlugin.WindowsUtils.SendKeycodes(procid, window, keycode);
                                     }
                                     break;
                                 case KeypressTypeEnum.WindowMessageCombo:
